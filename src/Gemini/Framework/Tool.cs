@@ -46,7 +46,6 @@ namespace Gemini.Framework
             {
                 _toolBarDefinition = value;
                 NotifyOfPropertyChange(() => ToolBar);
-                NotifyOfPropertyChange();
             }
         }
 

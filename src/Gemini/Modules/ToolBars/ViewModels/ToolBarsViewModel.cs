@@ -23,7 +23,7 @@ namespace Gemini.Modules.ToolBars.ViewModels
             set
             {
                 _visible = value;
-                NotifyOfPropertyChange();
+                NotifyOfPropertyChange(() => Visible);
             }
         }
 
